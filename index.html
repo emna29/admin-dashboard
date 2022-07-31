@@ -8,13 +8,51 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="search">
-            <img src="icons/magnify-expand.png" alt="search icon">
-            <input type="text" id="search" name="search"/>
-        </div>
-    </header>
 
-</header>
+
+<div class="container">
+    <!--header start-->
+
+    <div class="header">
+        <div class="top-header">
+            <div class="search-bar">
+                <div class="search-img ">
+                   <input type="image" class="search-icon" form="myform" src="icons/magnify-expand.png">
+                </div>
+                <!-- make it an input matching the form -->
+                <form id="myform" method="get" action="#">
+                    <input class="search-input" type="text" id="searchresult" name="searchresult" value=""><br><br>
+                </form>
+            </div>
+            <div class="profile-bar">
+                <div class="clickable"><img class="bell-icon" src="icons/bell-ring.png" alt="notification icon"></div>
+                <div class="clickable"><img class="profile-pic-small" src="avatar/Girl 07.jpg" alt="profile picture"></div>
+                <div class="clickable">Emna Dridi</div>
+            </div>
+        </div>
+
+        <div class="bottom-header">
+            <div class="profile-display">
+                <div class="clickable"><img class="profile-pic-large" src="avatar/Girl 07.jpg" alt="profile picture"></div>
+                <div class="name-greeting">
+                    <div class="greeting">Hi there,</div>
+                    <div class="name">Emna Dridi(@emnadridi)</div>
+                </div>
+            </div>
+            <div class="make-post">
+                <button class="head-button clickable">New</button>
+                <button class="head-button clickable">Upload</button>
+                <button class="head-button clickable">Share</button>
+            </div>
+        </div>
+
+    </div>
+
+    <!--header end-->
+
+
+ 
+
+</div>
 </body>
 </html>
