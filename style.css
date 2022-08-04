@@ -168,6 +168,7 @@
 
 .sidebar-main{
     grid-row: 2 / 3;
+    padding-top:50px;
 }
 
 .nav-styles {
